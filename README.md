@@ -18,13 +18,13 @@ git config --global url."https://<github_token>@github.com/".insteadOf "https://
 ### 1. Go to GitHub Settings:
 
  - Navigate to GitHub and sign in to your account.
- - Click on your profile picture in the upper-right corner and select Settings.
+ - Click on your profile picture in the upper-right corner and select **Settings**.
 
 ### 2. Create a Personal Access Token:
 
  - In the left sidebar, click on **Developer settings**.
- - Click on Personal access tokens, then click the Generate new token button.
- - Select the required scopes (permissions) for your token:
+ - Click on **Personal access tokens**, then click the **Generate new token** button.
+ - Select the required **scopes** (permissions) for your token:
     - **repo**: Full access to private repositories. This includes read and write access to code, issues, and pull requests.
     - **read**
 (optional): To read organization membership.
@@ -33,7 +33,7 @@ git config --global url."https://<github_token>@github.com/".insteadOf "https://
 
 ### 3. Generate and Copy the Token:
 
- - After selecting the scopes, click Generate token.
+ - After selecting the scopes, click **Generate token**.
  - Copy the token immediately, as you won't be able to see it again.
 
 ## Using `go-utils` in Your Project
